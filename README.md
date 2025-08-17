@@ -79,5 +79,5 @@ This project showcases strong problem-solving skills in implementing complex alg
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Credits:
+<b>Credits:</b>
 Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
