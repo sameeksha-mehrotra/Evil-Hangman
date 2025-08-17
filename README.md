@@ -5,6 +5,8 @@ This project implements Evil Hangman, a deceptive twist on the classic Hangman g
 
 This was developed as part of a programming assignment to demonstrate proficiency in data structures, algorithm design, and object-oriented programming. Key learning outcomes include using maps, lists, and sets to manage game state efficiently.
 
+------------------------------------------------------------------------------------------------------------------------
+
 Features:
 Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order).
 
@@ -15,6 +17,8 @@ Game State Management: Tracks guesses, remaining attempts, current pattern, and 
 
 Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay).
 
+------------------------------------------------------------------------------------------------------------------------
+
 Technologies Used:
 Language: Java (utilizing standard library classes like TreeMap, HashMap, ArrayList, Set, and StringBuilder).
 Data Structures:
@@ -24,6 +28,8 @@ Set<String> for the original dictionary and guessed letters.
 ArrayList<String> for active word lists.
 
 Algorithms: Pattern generation, family partitioning based on guesses, tie-breaking logic for difficulty selection, and random word picking.
+
+------------------------------------------------------------------------------------------------------------------------
 
 How to Run:
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
@@ -43,6 +49,8 @@ The game defaults to smallDictionary.txt for testing. Modify HangmanMain.java to
 Example gameplay output (matches provided sample logs):
 Debug mode shows word family breakdowns for each guess. Non-debug mode provides a clean Hangman interface.
 
+------------------------------------------------------------------------------------------------------------------------
+
 Sample Gameplay:
 Welcome to Evil Hangman!
 
@@ -56,6 +64,8 @@ Current: - - - - -
 
 Your guess? e
 
+------------------------------------------------------------------------------------------------------------------------
+
 Implementation Highlights:
 Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses.
 
@@ -66,6 +76,8 @@ Edge Cases Handled: Ensures no duplicate guesses, validates word lengths, and th
 Scalability: Designed to easily adapt to changes in difficulty patterns (e.g., via comparators for sorting families).
 
 This project showcases strong problem-solving skills in implementing complex algorithms with efficient data structures, making it a great addition to a technical portfolio.
+
+------------------------------------------------------------------------------------------------------------------------
 
 Credits:
 Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
