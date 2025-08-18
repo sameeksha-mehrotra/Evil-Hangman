@@ -1,13 +1,13 @@
 # Evil-Hangman
 
-Overview:
+<b>Overview:</b>
 This project implements Evil Hangman, a deceptive twist on the classic Hangman game in Java. Unlike traditional Hangman where the computer selects a word upfront, Evil Hangman dynamically adjusts the possible word list based on the player's guesses, delaying the choice of a secret word as long as possible to maximize difficulty. The computer "cheats" by always selecting the largest word family that fits the current pattern, making it harder for the player to win.
 
 This was developed as part of a programming assignment to demonstrate proficiency in data structures, algorithm design, and object-oriented programming. Key learning outcomes include using maps, lists, and sets to manage game state efficiently.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Features:
+<b>Features:</b>
 Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order).
 
 Difficulty Levels: Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode).
@@ -19,7 +19,7 @@ Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Technologies Used:
+<b>Technologies Used:</b>
 Language: Java (utilizing standard library classes like TreeMap, HashMap, ArrayList, Set, and StringBuilder).
 Data Structures:
 
@@ -31,7 +31,7 @@ Algorithms: Pattern generation, family partitioning based on guesses, tie-breaki
 
 ------------------------------------------------------------------------------------------------------------------------
 
-How to Run:
+<b>How to Run:</b>
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
 
 Clone the Repository:
@@ -51,7 +51,7 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Sample Gameplay:
+<b>Sample Gameplay:</b>
 Welcome to Evil Hangman!
 
 What length word do you want to use? 5
@@ -66,7 +66,7 @@ Your guess? e
 
 ------------------------------------------------------------------------------------------------------------------------
 
-Implementation Highlights:
+<b>Implementation Highlights:</b>
 Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses.
 
 Prep for Rounds: Resets game state for new rounds without recreating the manager object.
@@ -80,4 +80,4 @@ This project showcases strong problem-solving skills in implementing complex alg
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Credits:</b>
-Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
+<br/>Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
