@@ -19,20 +19,34 @@ Game State Management: Tracks guesses, remaining attempts, current pattern, and 
   <li>Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay)</li>
 </ul>
 
-------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Technologies Used:</b>
 <br/>
-Language: Java (utilizing standard library classes like TreeMap, HashMap, ArrayList, Set, and StringBuilder).
+Language: Java
+<ul>
+  <li>TreeMap</li>
+  <li>HashMap</li>
+  <li>ArrayList</li>
+  <li>Set</li>
+  <li>StringBuilder</li>
+</ul>
+<br/>
 Data Structures:
-
-Map<String, ArrayList<String>> for mapping patterns to word families.
-Set<String> for the original dictionary and guessed letters.
-ArrayList<String> for active word lists.
-
-Algorithms: Pattern generation, family partitioning based on guesses, tie-breaking logic for difficulty selection, and random word picking.
-
-------------------------------------------------------------------------------------------------------------------------
+<ul>
+  <li>Map<String, ArrayList<String>> for mapping patterns to word families</li>
+  <li>Set<String> for the original dictionary and guessed letters</li>
+  <li>ArrayList<String> for active word lists</li>
+</ul>
+<br/>
+Algorithms: 
+<ul>
+  <li>Pattern generation</li>
+  <li>family partitioning based on guesses</li>
+  <li>tie-breaking logic for difficulty selection</li>
+  <li>random word picking</li>
+</ul>
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>How to Run:</b>
 <br/>
