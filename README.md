@@ -42,9 +42,9 @@ Data Structures:
 Algorithms: 
 <ul>
   <li>Pattern generation</li>
-  <li>family partitioning based on guesses</li>
-  <li>tie-breaking logic for difficulty selection</li>
-  <li>random word picking</li>
+  <li>Family partitioning based on guesses</li>
+  <li>Tie-breaking logic for difficulty selection</li>
+  <li>Random word picking</li>
 </ul>
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -52,14 +52,14 @@ Algorithms:
 <br/>
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
 
-Clone the Repository:
+</t>Clone the Repository:
 git clone https://github.com/yourusername/evil-hangman.git
 cd evil-hangman
 
-Compile the Code:
+</t>Compile the Code:
 javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
 
-Run the Game:
+</t>Run the Game:
 java HangmanMain
 
 The game defaults to smallDictionary.txt for testing. Modify HangmanMain.java to use dictionary.txt for a larger word set. Follow on-screen prompts to select word length, guesses allowed, difficulty, and play the game.
