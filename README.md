@@ -34,7 +34,7 @@ Language: Java
 <br/>
 Data Structures:
 <ul>
-  <li>Map<String, "ArrayList<String>> for mapping patterns to word families</li>
+  <li>Map<"String, ArrayList<String>> for mapping patterns to word families</li>
   <li>Set<String> for the original dictionary and guessed letters</li>
   <li>ArrayList<String> for active word lists</li>
 </ul>
