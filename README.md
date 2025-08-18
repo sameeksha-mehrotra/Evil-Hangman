@@ -55,28 +55,34 @@ Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recomme
 <ol>
   <li>
     Clone the Repository:
+    <pre>
     <code>
       <br/>
       git clone https://github.com/sameeksha-mehrotra/Evil-Hangman.git
       <br/>
       cd Evil-Hangman
     </code>
+    </pre>
   </li>
   
   <li>
       Compile the Code:
+      <pre>
       <code>
         <br/>
         javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
       </code>
+      </pre>
   </li>
   
   <li>
       Run the Game:
+      <pre>
       <code>
         <br/>
         java HangmanMain
       </code>
+      </pre>
   </li>
 </ol>
 
@@ -89,7 +95,8 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
 
 <b>Sample Gameplay:</b>
 <br/>
-<code>
+<pre>
+  <code>
   Welcome to Evil Hangman!
 
   What length word do you want to use? 5
@@ -102,6 +109,7 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
   
   Your guess? e
 </code>
+</pre>
 
 -----------------------------------------------------------------------------------------------------------------------
 
