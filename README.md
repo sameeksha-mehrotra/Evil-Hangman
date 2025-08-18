@@ -34,7 +34,7 @@ Language: Java
 <br/>
 Data Structures:
 <ul>
-  <li>Map<"String, ArrayList<String>> for mapping patterns to word families</li>
+  <li>Map(String, ArrayList<String>) for mapping patterns to word families</li>
   <li>Set<String> for the original dictionary and guessed letters</li>
   <li>ArrayList<String> for active word lists</li>
 </ul>
@@ -52,25 +52,27 @@ Algorithms:
 <br/>
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
 
-<li>
-  Clone the Repository:
-  <br/>
-  git clone https://github.com/yourusername/evil-hangman.git
-  <br/>
-  cd evil-hangman
-</li>
-
-<li>
-  Compile the Code:
-  <br/>
-  javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
-</li>
-
-<li>
-  Run the Game:
-  <br/>
-  java HangmanMain
-</li>
+<ol>
+  <li>
+    Clone the Repository:
+    <br/>
+    git clone https://github.com/sameeksha-mehrotra/Evil-Hangman.git
+    <br/>
+    cd Evil-Hangman
+  </li>
+  
+  <li>
+      Compile the Code:
+      <br/>
+      javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
+  </li>
+  
+  <li>
+      Run the Game:
+      <br/>
+      java HangmanMain
+  </li>
+</ol>
 
 The game defaults to smallDictionary.txt for testing. Modify HangmanMain.java to use dictionary.txt for a larger word set. Follow on-screen prompts to select word length, guesses allowed, difficulty, and play the game.
 
