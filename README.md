@@ -1,6 +1,7 @@
 # Evil-Hangman
 
 <b>Overview:</b>
+<br/>
 This project implements Evil Hangman, a deceptive twist on the classic Hangman game in Java. Unlike traditional Hangman where the computer selects a word upfront, Evil Hangman dynamically adjusts the possible word list based on the player's guesses, delaying the choice of a secret word as long as possible to maximize difficulty. The computer "cheats" by always selecting the largest word family that fits the current pattern, making it harder for the player to win.
 
 This was developed as part of a programming assignment to demonstrate proficiency in data structures, algorithm design, and object-oriented programming. Key learning outcomes include using maps, lists, and sets to manage game state efficiently.
