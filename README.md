@@ -55,22 +55,28 @@ Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recomme
 <ol>
   <li>
     Clone the Repository:
-    <br/>
-    git clone https://github.com/sameeksha-mehrotra/Evil-Hangman.git
-    <br/>
-    cd Evil-Hangman
+    <code>
+      <br/>
+      git clone https://github.com/sameeksha-mehrotra/Evil-Hangman.git
+      <br/>
+      cd Evil-Hangman
+    </code>
   </li>
   
   <li>
       Compile the Code:
-      <br/>
-      javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
+      <code>
+        <br/>
+        javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
+      </code>
   </li>
   
   <li>
       Run the Game:
-      <br/>
-      java HangmanMain
+      <code>
+        <br/>
+        java HangmanMain
+      </code>
   </li>
 </ol>
 
@@ -83,17 +89,19 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
 
 <b>Sample Gameplay:</b>
 <br/>
-Welcome to Evil Hangman!
+<code>
+  Welcome to Evil Hangman!
 
-What length word do you want to use? 5
-How many wrong answers allowed? 4
-What difficulty level do you want? h
-
-Remaining guesses: 4
-Guessed: 
-Current: - - - - -
-
-Your guess? e
+  What length word do you want to use? 5
+  How many wrong answers allowed? 4
+  What difficulty level do you want? h
+  
+  Remaining guesses: 4
+  Guessed: 
+  Current: - - - - -
+  
+  Your guess? e
+</code>
 
 -----------------------------------------------------------------------------------------------------------------------
 
