@@ -88,6 +88,7 @@ Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recomme
 The game defaults to smallDictionary.txt for testing. Modify HangmanMain.java to use dictionary.txt for a larger word set. Follow on-screen prompts to select word length, guesses allowed, difficulty, and play the game.
 
 Example gameplay output (matches provided sample logs):
+<br/>
 Debug mode shows word family breakdowns for each guess. Non-debug mode provides a clean Hangman interface.
 
 -----------------------------------------------------------------------------------------------------------------------
