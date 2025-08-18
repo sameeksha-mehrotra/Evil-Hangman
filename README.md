@@ -11,12 +11,11 @@ This was developed as part of a programming assignment to demonstrate proficienc
 <b>Features:</b>
 <br/>
 <ul>
-  <li>Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order)</li>
-  <li>Difficulty Levels: Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode)</li>
-  <li>Debugging Mode: Optional debug output to track word families, patterns, and active word lists during gameplay.
-Game State Management: Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain)</li>
-  <li>Game State Management: Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain)</li>
-  <li>Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay)</li>
+  <li><b>Dynamic Word Selection:</b> Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order)</li>
+  <li><b>Difficulty Levels:</b> Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode)</li>
+  <li><b>Debugging Mode:</b> Optional debug output to track word families, patterns, and active word lists during gameplay</li>
+  <li><b>Game State Management:</b> Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain)</li>
+  <li><b>Dictionary Support:</b> Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay)</li>
 </ul>
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -117,10 +116,10 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
 <br/>
 
 <ul>
-  <li>Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses</li>
-  <li>Prep for Rounds: Resets game state for new rounds without recreating the manager object</li>
-  <li>Edge Cases Handled: Ensures no duplicate guesses, validates word lengths, and throws exceptions for invalid states</li>
-  <li>Scalability: Designed to easily adapt to changes in difficulty patterns (e.g., via comparators for sorting families)</li>
+  <li><b>Core Logic in makeGuess(char guess):</b> Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses</li>
+  <li><b>Prep for Rounds:</b> Resets game state for new rounds without recreating the manager object</li>
+  <li><b>Edge Cases Handled:</b> Ensures no duplicate guesses, validates word lengths, and throws exceptions for invalid states</li>
+  <li><b>Scalability:</b> Designed to easily adapt to changes in difficulty patterns (e.g., via comparators for sorting families)</li>
 </ul>
 
 This project showcases strong problem-solving skills in implementing complex algorithms with efficient data structures, making it a great addition to a technical portfolio.
