@@ -10,14 +10,14 @@ This was developed as part of a programming assignment to demonstrate proficienc
 
 <b>Features:</b>
 <br/>
-Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order).
-
-Difficulty Levels: Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode).
-
-Debugging Mode: Optional debug output to track word families, patterns, and active word lists during gameplay.
-Game State Management: Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain).
-
-Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay).
+<ul>
+  <li>Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order)</li>
+  <li>Difficulty Levels: Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode)</li>
+  <li>Debugging Mode: Optional debug output to track word families, patterns, and active word lists during gameplay.
+Game State Management: Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain)</li>
+  <li>Game State Management: Tracks guesses, remaining attempts, current pattern, and reveals the secret word only when necessary (or randomly if multiple options remain)</li>
+  <li>Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt for testing, dictionary.txt for full gameplay)</li>
+</ul>
 
 ------------------------------------------------------------------------------------------------------------------------
 
