@@ -9,6 +9,7 @@ This was developed as part of a programming assignment to demonstrate proficienc
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Features:</b>
+<br/>
 Dynamic Word Selection: Maintains a list of possible words from a dictionary and narrows it down based on guesses, choosing the hardest word family according to tie-breaking rules (largest size, fewest revealed characters, lexicographical order).
 
 Difficulty Levels: Supports Easy, Medium, and Hard modes, which alter how word families are selected (e.g., alternating between hardest and second-hardest in Easy mode).
@@ -21,6 +22,7 @@ Dictionary Support: Works with provided dictionaries (e.g., smallDictionary.txt 
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Technologies Used:</b>
+<br/>
 Language: Java (utilizing standard library classes like TreeMap, HashMap, ArrayList, Set, and StringBuilder).
 Data Structures:
 
@@ -33,6 +35,7 @@ Algorithms: Pattern generation, family partitioning based on guesses, tie-breaki
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>How to Run:</b>
+<br/>
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
 
 Clone the Repository:
@@ -53,6 +56,7 @@ Debug mode shows word family breakdowns for each guess. Non-debug mode provides 
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Sample Gameplay:</b>
+<br/>
 Welcome to Evil Hangman!
 
 What length word do you want to use? 5
@@ -68,6 +72,7 @@ Your guess? e
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Implementation Highlights:</b>
+<br/>
 Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses.
 
 Prep for Rounds: Resets game state for new rounds without recreating the manager object.
@@ -81,4 +86,5 @@ This project showcases strong problem-solving skills in implementing complex alg
 ------------------------------------------------------------------------------------------------------------------------
 
 <b>Credits:</b>
-<br/>Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
+<br/>
+Assignment provided by Professor Mike Scott and Professor Amrita Kaur. Developed individually as per assignment guidelines.
