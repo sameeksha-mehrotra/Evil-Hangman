@@ -6,7 +6,7 @@ This project implements Evil Hangman, a deceptive twist on the classic Hangman g
 
 This was developed as part of a programming assignment to demonstrate proficiency in data structures, algorithm design, and object-oriented programming. Key learning outcomes include using maps, lists, and sets to manage game state efficiently.
 
-------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Features:</b>
 <br/>
@@ -52,22 +52,32 @@ Algorithms:
 <br/>
 Prerequisites: Java Development Kit (JDK) installed (version 8 or higher recommended).
 
-</t>Clone the Repository:
-git clone https://github.com/yourusername/evil-hangman.git
-cd evil-hangman
+<li>
+  Clone the Repository:
+  <br/>
+  git clone https://github.com/yourusername/evil-hangman.git
+  <br/>
+  cd evil-hangman
+</li>
 
-</t>Compile the Code:
-javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
+<li>
+  Compile the Code:
+  <br/>
+  javac HangmanManager.java HangmanMain.java HangmanDifficulty.java
+</li>
 
-</t>Run the Game:
-java HangmanMain
+<li>
+  Run the Game:
+  <br/>
+  java HangmanMain
+</li>
 
 The game defaults to smallDictionary.txt for testing. Modify HangmanMain.java to use dictionary.txt for a larger word set. Follow on-screen prompts to select word length, guesses allowed, difficulty, and play the game.
 
 Example gameplay output (matches provided sample logs):
 Debug mode shows word family breakdowns for each guess. Non-debug mode provides a clean Hangman interface.
 
-------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Sample Gameplay:</b>
 <br/>
@@ -83,21 +93,21 @@ Current: - - - - -
 
 Your guess? e
 
-------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Implementation Highlights:</b>
 <br/>
-Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses.
 
-Prep for Rounds: Resets game state for new rounds without recreating the manager object.
-
-Edge Cases Handled: Ensures no duplicate guesses, validates word lengths, and throws exceptions for invalid states.
-
-Scalability: Designed to easily adapt to changes in difficulty patterns (e.g., via comparators for sorting families).
+<ul>
+  <li>Core Logic in makeGuess(char guess): Partitions active words into families based on the guess, selects the appropriate family per difficulty, updates the pattern, and handles wrong guesses</li>
+  <li>Prep for Rounds: Resets game state for new rounds without recreating the manager object</li>
+  <li>Edge Cases Handled: Ensures no duplicate guesses, validates word lengths, and throws exceptions for invalid states</li>
+  <li>Scalability: Designed to easily adapt to changes in difficulty patterns (e.g., via comparators for sorting families)</li>
+</ul>
 
 This project showcases strong problem-solving skills in implementing complex algorithms with efficient data structures, making it a great addition to a technical portfolio.
 
-------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 <b>Credits:</b>
 <br/>
